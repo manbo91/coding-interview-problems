@@ -23,7 +23,6 @@ def max_subarray_sum(arr):
     current_sum = max_sum
 
     for num in arr:
-        print(f"num: {num}, current_sum: {current_sum}, max: {max_sum}")
         if num > current_sum:
             current_sum = max(num, current_sum + num)
         else:
