@@ -28,11 +28,14 @@ def findRanges(nums):
         else:
             ranges.append([f"{start}->{num1}"])
             start = num2
-    ranges.append([f"{start}->{start}"])
+
+    ranges.append([f"{start}->{nums[-1]}"])
     return ranges
 
 
 print(findRanges([0, 1, 2, 5, 7, 8, 9, 9, 10, 11, 15]))
 # ['0->2', '5->5', '7->11', '15->15']
+print(findRanges([0, 1, 2, 5, 7, 8, 9, 9, 10, 11]))
+# ['0->2', '5->5', '7->11']
 print(findRanges([0]))
 # ['0->0']
