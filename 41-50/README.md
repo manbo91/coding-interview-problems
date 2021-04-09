@@ -1,0 +1,11 @@
+# Problems
+- First Missing Positive Integer
+- Validate Binary Search Tree
+- Get All Values At A Certain Height In A Binary Tree
+- Longest Substring With K Distinct Characters
+- Count Number Of Unival SubStrees
+- Reconstruct Binary Tree From Preorder and Inorder Traversals
+- Sort Colors
+- Word Ordering In A Different Alphabetical Order
+- 3 Sum
+- Largest BST In A Binary Tree
