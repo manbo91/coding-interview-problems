@@ -3,3 +3,4 @@
 - Arithmetic Binary Tree
 - Tree Serialization
 - Distribute Bonuses
+- Min Range Needed to Sort
