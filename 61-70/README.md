@@ -4,3 +4,4 @@
 - Tree Serialization
 - Distribute Bonuses
 - Min Range Needed to Sort
+- Reverse Integer
