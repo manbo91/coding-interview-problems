@@ -5,3 +5,4 @@
 - Distribute Bonuses
 - Min Range Needed to Sort
 - Reverse Integer
+- Min Stack
