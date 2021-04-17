@@ -6,3 +6,4 @@
 - Min Range Needed to Sort
 - Reverse Integer
 - Min Stack
+- Full Binary Tree
