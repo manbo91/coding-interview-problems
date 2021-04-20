@@ -16,22 +16,19 @@ print(decodeString('2[a2[b]c]'))
 
 
 def decodeString(s):
-    index, decode = decodeStringHelper(s, 0, 1)
+    _, decode = decodeStringHelper(s, 0, 1)
     return "".join(decode)
 
 
 def decodeStringHelper(s, index, times):
-    if index >= len(s):
-        return
-
     current_decode = []
-    while s[index] != "]":
+    while index < len(s) and s[index] != "]":
         token = s[index]
         try:
             token = int(token)
             childIndex, childDecode = decodeStringHelper(s, index + 1, token)
             current_decode += childDecode
-            index = childIndex + 1
+            index = childIndex
         except ValueError:
             if token == "[":
                 pass
