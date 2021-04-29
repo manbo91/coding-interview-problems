@@ -6,4 +6,5 @@
 - Nth Fibonacci Number
 - Find the Single Element in an Array of Duplicates
 - Convert Roman Numerals to Decimal
+- String Compression
 
