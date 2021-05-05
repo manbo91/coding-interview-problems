@@ -16,6 +16,7 @@ print rearrangeString('abbccc')
 
 import heapq
 
+
 def rearrangeString(s):
     pq = [(-s.count(x), x) for x in set(s)]
     heapq.heapify(pq)
@@ -32,7 +33,6 @@ def rearrangeString(s):
         if nct2 + 1: heapq.heappush(pq, (nct2 + 1, ch2))
 
     return "".join(ans) + (pq[0][1] if pq else '')
-
 
 
 print(rearrangeString('abbccc'))
@@ -57,4 +57,3 @@ print(rearrangeString('abc'))
 # abc
 print(rearrangeString('abcabc'))
 # abcabc
-
