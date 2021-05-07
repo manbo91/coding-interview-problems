@@ -4,4 +4,5 @@
 - Longest Consecutive Sequence
 - Permutations of numbers
 - Subarray With Target Sum
+- Determine If Linked List is Palindrome
 
